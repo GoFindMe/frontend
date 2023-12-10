@@ -1,15 +1,3 @@
-# GoFindMe Frontend
-
-# CI/CD todo
-
-1. install JDK 17
-2. install android SDK - may need to `chown -R $(whoami) /opt/android-sdk`
-3. accept licenses
-4. install NPM
-5. install EAS CLI
-6. log in to EAS
-7. build
-
 # Developer Setup
 
 Brennan will help you troubleshoot your local setup as long as you use WSL2 or a native Linux installation and [rtx](https://github.com/jdx/rtx) to manage node versions.
@@ -47,13 +35,13 @@ It is highly recommended to place the repository somewhere in your home director
 Clone the repo:
 
 ```bash
-git clone git@github.com:malcolmseyd/gofindme.git
+git clone git@github.com:gofindme/frontend.git
 ```
 
 cd to the frontend directory:
 
 ```bash
-cd gofindme/frontend
+cd frontend
 ```
 
 Install dependencies:
@@ -69,3 +57,5 @@ npm run start
 ```
 
 This should pull up a QR code for you to scan from the expo app on your phone (Android) or the camera app (iPhone)
+
+By default, this runs using the `--tunnel` option so that you can access the dev server if you're running WSL. This is not necessary on native Linux so feel free to remove it locally if you want.
