@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "GoFindMe",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/globe.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gofindme.frontend"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/globe.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.gofindme.frontend",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAkx2XR3ZlI--0N3delgFN2q5nsz0H6XFc"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "35ea6af7-53ac-4eb6-a469-7f54740e3d2e"
+      }
+    }
+  }
+}
