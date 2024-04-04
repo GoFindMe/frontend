@@ -1,6 +1,6 @@
 # Developer Setup
 
-Brennan will help you troubleshoot your local setup as long as you use WSL2 or a native Linux installation and [rtx](https://github.com/jdx/rtx) to manage node versions.
+Brennan will help you troubleshoot your local setup as long as you use WSL2 or a native Linux installation and [mise](https://github.com/jdx/mise) to manage node versions.
 
 ## Environment setup
 
